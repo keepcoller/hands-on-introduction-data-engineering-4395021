@@ -1,0 +1,821 @@
+2024-07-13 01:02:37,362 INFO - Starting the scheduler
+2024-07-13 01:02:37,363 INFO - Processing each file at most -1 times
+2024-07-13 01:02:37,368 INFO - Launched DagFileProcessorManager with pid: 20721
+2024-07-13 01:02:37,369 INFO - Resetting orphaned tasks for active dag runs
+2024-07-13 01:02:37,373 INFO - Configured default timezone Timezone('UTC')
+2024-07-13 01:04:03,346 WARNING - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9
+Cache-Control: max-age=0
+Referer: https://github.com/
+X-Request-Id: 06dd7590eddff7563df636e7773bfa2e
+X-Real-Ip: 10.240.0.199
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-07-13 01:04:03,348 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-07-13 01:04:04,000 WARNING - The Authorization header is missing: Accept: image/avif, image/webp, image/apng, image/svg+xml, image/*, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9
+Referer: https://probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev/
+X-Request-Id: 51bf72487583692b6502461647601afa
+X-Real-Ip: 10.240.0.199
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-07-13 01:04:04,000 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-07-13 01:04:23,550 WARNING - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9
+Referer: https://probable-doodle-95jrx9r6gx52xpgp.github.dev/
+X-Request-Id: c35c46afc7ca8bcc50579449e3129b4c
+X-Real-Ip: 10.240.4.161
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-07-13 01:04:23,551 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-07-13 01:04:24,031 WARNING - The Authorization header is missing: Accept: image/avif, image/webp, image/apng, image/svg+xml, image/*, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9
+Referer: https://probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev/
+X-Request-Id: e28047ab5c40b149d6bc2a43cbf82f9f
+X-Real-Ip: 10.240.2.131
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-07-13 01:04:24,033 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-07-13 01:07:00,061 WARNING - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9
+Referer: https://probable-doodle-95jrx9r6gx52xpgp.github.dev/
+X-Request-Id: dd0b3b89cfeabb7209a46cba1f097d4f
+X-Real-Ip: 10.240.2.23
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev
+X-Forwarded-For: 10.240.2.99
+Proxy-Connection: Keep-Alive
+
+.
+2024-07-13 01:07:00,062 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-07-13 01:07:00,528 WARNING - The Authorization header is missing: Accept: image/avif, image/webp, image/apng, image/svg+xml, image/*, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9
+Referer: https://probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev/
+X-Request-Id: dbc7b2e966fcb62676514d5e51de7ece
+X-Real-Ip: 10.240.3.64
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev
+X-Forwarded-For: 10.240.2.99
+Proxy-Connection: Keep-Alive
+
+.
+2024-07-13 01:07:00,529 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-07-13 01:07:12,050 WARNING - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9
+Referer: https://probable-doodle-95jrx9r6gx52xpgp.github.dev/
+X-Request-Id: 1f514757e8044432e31db8c1a8ba0584
+X-Real-Ip: 10.240.0.199
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev
+X-Forwarded-For: 10.240.2.99
+Proxy-Connection: Keep-Alive
+
+.
+2024-07-13 01:07:12,051 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-07-13 01:07:12,506 WARNING - The Authorization header is missing: Accept: image/avif, image/webp, image/apng, image/svg+xml, image/*, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9
+Referer: https://probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev/
+X-Request-Id: 8dcacd66e6e3526ab4af94b1f727d238
+X-Real-Ip: 10.240.3.64
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev
+X-Forwarded-For: 10.240.2.99
+Proxy-Connection: Keep-Alive
+
+.
+2024-07-13 01:07:12,507 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-07-13 01:07:37,551 INFO - Resetting orphaned tasks for active dag runs
+2024-07-13 01:12:17,840 WARNING - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9
+Referer: https://probable-doodle-95jrx9r6gx52xpgp.github.dev/
+X-Request-Id: 8dd755119e9aa260fbc045e3389b8e07
+X-Real-Ip: 10.240.0.199
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-07-13 01:12:17,841 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-07-13 01:12:18,455 WARNING - The Authorization header is missing: Accept: image/avif, image/webp, image/apng, image/svg+xml, image/*, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9
+Referer: https://probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev/
+X-Request-Id: 715611df08d26439e487eda015413d46
+X-Real-Ip: 10.240.2.131
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-07-13 01:12:18,456 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-07-13 01:12:37,689 INFO - Resetting orphaned tasks for active dag runs
+2024-07-13 01:17:37,054 WARNING - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9
+Referer: https://probable-doodle-95jrx9r6gx52xpgp.github.dev/
+X-Request-Id: 6fc4aeb59817eda4b9cb2cfd98bb134a
+X-Real-Ip: 10.240.3.64
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-07-13 01:17:37,055 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-07-13 01:17:37,696 INFO - Resetting orphaned tasks for active dag runs
+2024-07-13 01:17:37,711 WARNING - The Authorization header is missing: Accept: image/avif, image/webp, image/apng, image/svg+xml, image/*, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9
+Referer: https://probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev/
+X-Request-Id: b4fde4dfb9f885ebaa210749b350b5e4
+X-Real-Ip: 10.240.2.23
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev
+X-Forwarded-For: 10.240.3.196
+Proxy-Connection: Keep-Alive
+
+.
+2024-07-13 01:17:37,711 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-07-13 01:22:37,856 INFO - Resetting orphaned tasks for active dag runs
+2024-07-13 01:27:38,113 INFO - Resetting orphaned tasks for active dag runs
+2024-07-13 01:32:38,249 INFO - Resetting orphaned tasks for active dag runs
+2024-07-13 01:37:38,391 INFO - Resetting orphaned tasks for active dag runs
+2024-07-13 01:42:38,548 INFO - Resetting orphaned tasks for active dag runs
+2024-07-13 13:51:24,007 INFO - Task context logging is enabled
+2024-07-13 13:51:24,013 INFO - Loaded executor: SequentialExecutor
+2024-07-13 13:51:24,081 INFO - Starting the scheduler
+2024-07-13 13:51:24,081 INFO - Processing each file at most -1 times
+2024-07-13 13:51:24,086 INFO - Launched DagFileProcessorManager with pid: 14192
+2024-07-13 13:51:24,087 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-13 13:51:24,090 INFO - Configured default timezone UTC
+2024-07-13 13:51:24,109 INFO - Marked 1 SchedulerJob instances as failed
+2024-07-13 13:51:24,183 ERROR - Exception when executing SchedulerJob._run_scheduler_loop
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 843, in _execute
+    self._run_scheduler_loop()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 972, in _run_scheduler_loop
+    self.processor_agent.wait_until_finished()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/dag_processing/manager.py", line 206, in wait_until_finished
+    result = self._parent_signal_conn.recv()
+  File "/usr/local/python/3.10.13/lib/python3.10/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/local/python/3.10.13/lib/python3.10/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/local/python/3.10.13/lib/python3.10/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2024-07-13 13:51:24,186 INFO - Sending Signals.SIGTERM to group 14192. PIDs of all processes in the group: []
+2024-07-13 13:51:24,187 INFO - Sending the signal Signals.SIGTERM to group 14192
+2024-07-13 13:51:24,187 INFO - Sending the signal Signals.SIGTERM to process 14192 as process group is missing.
+2024-07-13 13:51:24,187 INFO - Exited execute loop
+2024-07-13 13:58:51,527 INFO - Task context logging is enabled
+2024-07-13 13:58:51,529 INFO - Loaded executor: SequentialExecutor
+2024-07-13 13:58:51,600 INFO - Starting the scheduler
+2024-07-13 13:58:51,601 INFO - Processing each file at most -1 times
+2024-07-13 13:58:51,606 INFO - Launched DagFileProcessorManager with pid: 18287
+2024-07-13 13:58:51,608 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-13 13:58:51,611 INFO - Configured default timezone UTC
+2024-07-13 13:58:55,671 WARNING - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9
+Referer: https://probable-doodle-95jrx9r6gx52xpgp.github.dev/
+X-Request-Id: e07a2dffd6248081adfe647fe35dff08
+X-Real-Ip: 10.240.3.64
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev
+X-Forwarded-For: 10.240.5.127
+Proxy-Connection: Keep-Alive
+
+.
+2024-07-13 13:58:56,264 WARNING - The Authorization header is missing: Accept: image/avif, image/webp, image/apng, image/svg+xml, image/*, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9
+Referer: https://probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev/
+X-Request-Id: c3396b05cbb66176fea600c2908b01b2
+X-Real-Ip: 10.240.2.23
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev
+X-Forwarded-For: 10.240.5.127
+Proxy-Connection: Keep-Alive
+
+.
+2024-07-13 13:59:51,808 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:00:51,940 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:01:52,102 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:02:52,258 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:03:51,803 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-13 14:03:52,391 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:04:52,524 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:05:52,658 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:06:52,791 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:07:52,925 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:08:51,962 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-13 14:08:53,163 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:09:53,296 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:10:53,430 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:11:53,564 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:12:53,633 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:13:52,096 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-13 14:13:53,790 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:14:53,949 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:15:54,083 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:16:54,110 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:17:54,246 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:18:52,232 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-13 14:18:54,378 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:19:54,512 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:20:54,589 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:21:54,720 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:22:54,877 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:23:52,467 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-13 14:23:55,138 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:24:55,272 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:25:55,433 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:26:55,566 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-13 14:27:55,699 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 17:39:56,781 INFO - Task context logging is enabled
+2024-07-15 17:39:56,788 INFO - Loaded executor: SequentialExecutor
+2024-07-15 17:39:56,857 INFO - Starting the scheduler
+2024-07-15 17:39:56,858 INFO - Processing each file at most -1 times
+2024-07-15 17:39:56,871 INFO - Launched DagFileProcessorManager with pid: 4956
+2024-07-15 17:39:56,872 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-15 17:39:56,875 INFO - Configured default timezone UTC
+2024-07-15 17:39:56,894 INFO - Marked 1 SchedulerJob instances as failed
+2024-07-15 17:40:04,641 WARNING - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9
+Cache-Control: max-age=0
+Referer: https://probable-doodle-95jrx9r6gx52xpgp.github.dev/
+X-Request-Id: 9b011ca550929f53d610721d048bde02
+X-Real-Ip: 10.240.3.64
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev
+X-Forwarded-For: 10.240.2.131
+Proxy-Connection: Keep-Alive
+
+.
+2024-07-15 17:40:05,335 WARNING - The Authorization header is missing: Accept: image/avif, image/webp, image/apng, image/svg+xml, image/*, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US, en; q=0.9
+Referer: https://probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev/
+X-Request-Id: 82c1f0a072034f065cd5f5ba8db919fe
+X-Real-Ip: 10.240.0.199
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: probable-doodle-95jrx9r6gx52xpgp-8793.app.github.dev
+X-Forwarded-For: 10.240.2.131
+Proxy-Connection: Keep-Alive
+
+.
+2024-07-15 17:40:57,086 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 17:41:57,260 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 17:42:57,521 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 17:43:57,677 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 17:44:52,308 INFO - Exiting gracefully upon receiving signal 15
+2024-07-15 17:44:52,474 INFO - Sending Signals.SIGTERM to group 4956. PIDs of all processes in the group: []
+2024-07-15 17:44:52,475 INFO - Sending the signal Signals.SIGTERM to group 4956
+2024-07-15 17:44:52,475 INFO - Sending the signal Signals.SIGTERM to process 4956 as process group is missing.
+2024-07-15 17:44:52,477 INFO - Sending Signals.SIGTERM to group 4956. PIDs of all processes in the group: []
+2024-07-15 17:44:52,477 INFO - Sending the signal Signals.SIGTERM to group 4956
+2024-07-15 17:44:52,478 INFO - Sending the signal Signals.SIGTERM to process 4956 as process group is missing.
+2024-07-15 17:44:52,478 INFO - Exited execute loop
+2024-07-15 17:53:38,645 INFO - Task context logging is enabled
+2024-07-15 17:53:38,646 INFO - Loaded executor: SequentialExecutor
+2024-07-15 17:53:38,706 INFO - Starting the scheduler
+2024-07-15 17:53:38,707 INFO - Processing each file at most -1 times
+2024-07-15 17:53:38,712 INFO - Launched DagFileProcessorManager with pid: 11327
+2024-07-15 17:53:38,714 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-15 17:53:38,716 INFO - Configured default timezone UTC
+2024-07-15 17:54:38,984 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 17:55:39,115 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 17:56:39,247 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 17:57:39,507 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 17:58:38,899 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-15 17:58:39,641 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 17:59:39,875 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:00:40,009 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:01:40,268 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:02:40,404 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:03:39,058 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-15 18:03:40,537 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:04:40,671 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:05:40,707 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:06:40,840 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:07:41,000 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:08:39,194 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-15 18:08:41,135 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:09:41,269 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:10:41,403 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:11:41,537 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:12:41,697 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:13:39,328 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-15 18:13:41,832 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:14:41,966 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:15:42,101 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:16:42,563 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:17:42,696 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:18:39,564 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-15 18:18:42,955 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:19:43,090 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:20:43,248 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:21:43,322 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-15 18:22:43,571 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:31:00,554 INFO - Task context logging is enabled
+2024-07-20 03:31:00,561 INFO - Loaded executor: SequentialExecutor
+2024-07-20 03:31:00,636 INFO - Starting the scheduler
+2024-07-20 03:31:00,636 INFO - Processing each file at most -1 times
+2024-07-20 03:31:00,649 INFO - Launched DagFileProcessorManager with pid: 21487
+2024-07-20 03:31:00,651 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-20 03:31:00,653 INFO - Configured default timezone UTC
+2024-07-20 03:31:00,671 INFO - Marked 1 SchedulerJob instances as failed
+2024-07-20 03:32:00,748 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:33:00,883 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:34:01,015 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:35:01,180 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:36:00,848 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-20 03:36:01,370 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:37:01,529 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:38:01,718 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:39:02,003 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:40:02,160 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:41:00,982 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-20 03:41:02,203 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:42:02,364 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:43:02,525 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:44:02,681 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:45:02,939 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:46:01,118 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-20 03:46:03,101 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:47:03,258 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:48:03,420 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:49:03,606 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:50:03,864 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:51:01,217 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-20 03:51:04,022 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:52:04,206 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:53:04,464 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:54:04,629 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:55:04,788 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:56:01,352 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-20 03:56:04,978 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:57:05,100 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:58:05,256 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 03:59:05,379 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 04:00:05,530 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 04:01:01,511 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-20 04:01:05,718 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 04:02:06,001 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 04:03:06,161 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-20 04:04:06,322 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:20:18,261 INFO - Task context logging is enabled
+2024-07-21 02:20:18,267 INFO - Loaded executor: SequentialExecutor
+2024-07-21 02:20:18,332 INFO - Starting the scheduler
+2024-07-21 02:20:18,333 INFO - Processing each file at most -1 times
+2024-07-21 02:20:18,346 INFO - Launched DagFileProcessorManager with pid: 4844
+2024-07-21 02:20:18,347 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-21 02:20:18,349 INFO - Configured default timezone UTC
+2024-07-21 02:20:18,367 INFO - Marked 1 SchedulerJob instances as failed
+2024-07-21 02:21:08,211 INFO - 1 tasks up for execution:
+	<TaskInstance: one_task_dag.one_task manual__2024-07-21T02:21:06.296001+00:00 [scheduled]>
+2024-07-21 02:21:08,211 INFO - DAG one_task_dag has 0/16 running and queued tasks
+2024-07-21 02:21:08,211 INFO - Setting the following tasks to queued state:
+	<TaskInstance: one_task_dag.one_task manual__2024-07-21T02:21:06.296001+00:00 [scheduled]>
+2024-07-21 02:21:08,213 INFO - Sending TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2024-07-21T02:21:06.296001+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-07-21 02:21:08,213 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-07-21T02:21:06.296001+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2024-07-21 02:21:08,235 INFO - Executing command: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-07-21T02:21:06.296001+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2024-07-21 02:21:10,795 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2024-07-21T02:21:06.296001+00:00', try_number=1, map_index=-1)
+2024-07-21 02:21:10,801 INFO - TaskInstance Finished: dag_id=one_task_dag, task_id=one_task, run_id=manual__2024-07-21T02:21:06.296001+00:00, map_index=-1, run_start_date=2024-07-21 02:21:10.191025+00:00, run_end_date=2024-07-21 02:21:10.388961+00:00, run_duration=0.197936, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=8, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-07-21 02:21:08.212284+00:00, queued_by_job_id=7, pid=5226
+2024-07-21 02:21:11,079 ERROR - Marking run <DagRun one_task_dag @ 2024-07-21 02:21:06.296001+00:00: manual__2024-07-21T02:21:06.296001+00:00, state:running, queued_at: 2024-07-21 02:21:06.341094+00:00. externally triggered: True> failed
+2024-07-21 02:21:11,080 INFO - DagRun Finished: dag_id=one_task_dag, execution_date=2024-07-21 02:21:06.296001+00:00, run_id=manual__2024-07-21T02:21:06.296001+00:00, run_start_date=2024-07-21 02:21:08.146411+00:00, run_end_date=2024-07-21 02:21:11.080314+00:00, run_duration=2.933903, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-07-21 02:21:06.296001+00:00, data_interval_end=2024-07-21 02:21:06.296001+00:00, dag_hash=d3de7e179e5febf3c10215c816830095
+2024-07-21 02:21:18,574 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:21:39,378 INFO - 1 tasks up for execution:
+	<TaskInstance: one_task_dag.one_task manual__2024-07-21T02:21:38.701939+00:00 [scheduled]>
+2024-07-21 02:21:39,379 INFO - DAG one_task_dag has 0/16 running and queued tasks
+2024-07-21 02:21:39,379 INFO - Setting the following tasks to queued state:
+	<TaskInstance: one_task_dag.one_task manual__2024-07-21T02:21:38.701939+00:00 [scheduled]>
+2024-07-21 02:21:39,381 INFO - Sending TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2024-07-21T02:21:38.701939+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-07-21 02:21:39,381 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-07-21T02:21:38.701939+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2024-07-21 02:21:39,403 INFO - Executing command: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-07-21T02:21:38.701939+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2024-07-21 02:21:41,962 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2024-07-21T02:21:38.701939+00:00', try_number=1, map_index=-1)
+2024-07-21 02:21:41,966 INFO - TaskInstance Finished: dag_id=one_task_dag, task_id=one_task, run_id=manual__2024-07-21T02:21:38.701939+00:00, map_index=-1, run_start_date=2024-07-21 02:21:41.378925+00:00, run_end_date=2024-07-21 02:21:41.566079+00:00, run_duration=0.187154, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=9, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-07-21 02:21:39.380041+00:00, queued_by_job_id=7, pid=5446
+2024-07-21 02:21:42,124 ERROR - Marking run <DagRun one_task_dag @ 2024-07-21 02:21:38.701939+00:00: manual__2024-07-21T02:21:38.701939+00:00, state:running, queued_at: 2024-07-21 02:21:38.717915+00:00. externally triggered: True> failed
+2024-07-21 02:21:42,125 INFO - DagRun Finished: dag_id=one_task_dag, execution_date=2024-07-21 02:21:38.701939+00:00, run_id=manual__2024-07-21T02:21:38.701939+00:00, run_start_date=2024-07-21 02:21:39.318954+00:00, run_end_date=2024-07-21 02:21:42.125212+00:00, run_duration=2.806258, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-07-21 02:21:38.701939+00:00, data_interval_end=2024-07-21 02:21:38.701939+00:00, dag_hash=d3de7e179e5febf3c10215c816830095
+2024-07-21 02:22:18,731 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:23:18,867 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:24:19,001 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:24:52,026 INFO - 1 tasks up for execution:
+	<TaskInstance: one_task_dag.one_task manual__2024-07-21T02:24:50.724042+00:00 [scheduled]>
+2024-07-21 02:24:52,026 INFO - DAG one_task_dag has 0/16 running and queued tasks
+2024-07-21 02:24:52,026 INFO - Setting the following tasks to queued state:
+	<TaskInstance: one_task_dag.one_task manual__2024-07-21T02:24:50.724042+00:00 [scheduled]>
+2024-07-21 02:24:52,028 INFO - Sending TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2024-07-21T02:24:50.724042+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-07-21 02:24:52,028 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-07-21T02:24:50.724042+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2024-07-21 02:24:52,051 INFO - Executing command: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-07-21T02:24:50.724042+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2024-07-21 02:24:54,677 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2024-07-21T02:24:50.724042+00:00', try_number=1, map_index=-1)
+2024-07-21 02:24:54,681 INFO - TaskInstance Finished: dag_id=one_task_dag, task_id=one_task, run_id=manual__2024-07-21T02:24:50.724042+00:00, map_index=-1, run_start_date=2024-07-21 02:24:54.016838+00:00, run_end_date=2024-07-21 02:24:54.256745+00:00, run_duration=0.239907, state=success, executor_state=success, try_number=1, max_tries=0, job_id=10, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-07-21 02:24:52.027386+00:00, queued_by_job_id=7, pid=6940
+2024-07-21 02:24:54,899 INFO - Marking run <DagRun one_task_dag @ 2024-07-21 02:24:50.724042+00:00: manual__2024-07-21T02:24:50.724042+00:00, state:running, queued_at: 2024-07-21 02:24:50.731932+00:00. externally triggered: True> successful
+2024-07-21 02:24:54,899 INFO - DagRun Finished: dag_id=one_task_dag, execution_date=2024-07-21 02:24:50.724042+00:00, run_id=manual__2024-07-21T02:24:50.724042+00:00, run_start_date=2024-07-21 02:24:51.959760+00:00, run_end_date=2024-07-21 02:24:54.899445+00:00, run_duration=2.939685, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-07-21 02:24:50.724042+00:00, data_interval_end=2024-07-21 02:24:50.724042+00:00, dag_hash=039af8d025040483a612939e832627dc
+2024-07-21 02:25:18,542 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-21 02:25:19,160 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:26:19,294 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:27:19,428 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:28:19,562 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:29:19,823 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:30:18,677 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-21 02:30:19,957 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:31:20,116 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:32:20,250 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:33:20,384 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:34:20,518 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:35:18,913 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-21 02:35:20,678 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:36:20,835 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:37:20,994 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:38:21,255 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:39:21,413 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:40:19,047 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-21 02:40:21,573 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:41:21,730 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:42:21,893 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:43:22,054 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:44:22,212 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:45:19,283 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-21 02:45:22,478 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:46:22,635 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:47:22,819 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:48:23,001 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:49:23,293 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:50:19,419 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-21 02:50:23,478 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:51:23,633 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:52:23,814 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:53:23,969 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:54:24,155 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:55:19,555 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-21 02:55:24,312 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:56:24,497 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:57:24,678 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 02:58:24,860 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 13:21:43,068 INFO - Task context logging is enabled
+2024-07-21 13:21:43,073 INFO - Loaded executor: SequentialExecutor
+2024-07-21 13:21:43,153 INFO - Starting the scheduler
+2024-07-21 13:21:43,154 INFO - Processing each file at most -1 times
+2024-07-21 13:21:43,166 INFO - Launched DagFileProcessorManager with pid: 2629
+2024-07-21 13:21:43,167 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-21 13:21:43,169 INFO - Configured default timezone UTC
+2024-07-21 13:21:43,187 INFO - Marked 1 SchedulerJob instances as failed
+2024-07-21 13:22:43,315 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 13:23:43,496 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 13:24:43,630 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'

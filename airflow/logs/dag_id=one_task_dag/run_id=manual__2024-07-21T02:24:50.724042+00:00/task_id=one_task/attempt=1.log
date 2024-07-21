@@ -1,0 +1,20 @@
+[2024-07-21T02:24:53.987+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-21T02:24:54.016+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: one_task_dag.one_task manual__2024-07-21T02:24:50.724042+00:00 [queued]>
+[2024-07-21T02:24:54.023+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: one_task_dag.one_task manual__2024-07-21T02:24:50.724042+00:00 [queued]>
+[2024-07-21T02:24:54.023+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-07-21T02:24:54.057+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): one_task> on 2024-07-21 02:24:50.724042+00:00
+[2024-07-21T02:24:54.062+0000] {standard_task_runner.py:63} INFO - Started process 6940 to run task
+[2024-07-21T02:24:54.064+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-07-21T02:24:50.724042+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/one_task_dag.py', '--cfg-path', '/tmp/tmp3uaevrk7']
+[2024-07-21T02:24:54.065+0000] {standard_task_runner.py:91} INFO - Job 10: Subtask one_task
+[2024-07-21T02:24:54.112+0000] {task_command.py:426} INFO - Running <TaskInstance: one_task_dag.one_task manual__2024-07-21T02:24:50.724042+00:00 [running]> on host codespaces-8c1ce7
+[2024-07-21T02:24:54.205+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Vinoo' AIRFLOW_CTX_DAG_ID='one_task_dag' AIRFLOW_CTX_TASK_ID='one_task' AIRFLOW_CTX_EXECUTION_DATE='2024-07-21T02:24:50.724042+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-21T02:24:50.724042+00:00'
+[2024-07-21T02:24:54.206+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-21T02:24:54.207+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-07-21T02:24:54.207+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "hello linkedin learning!" > /workspaces/hands-on-introduction-data-engineering-4395021/lab/create_this_file.txt']
+[2024-07-21T02:24:54.216+0000] {subprocess.py:86} INFO - Output:
+[2024-07-21T02:24:54.218+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-07-21T02:24:54.218+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-21T02:24:54.256+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=one_task_dag, task_id=one_task, run_id=manual__2024-07-21T02:24:50.724042+00:00, execution_date=20240721T022450, start_date=20240721T022454, end_date=20240721T022454
+[2024-07-21T02:24:54.317+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-07-21T02:24:54.327+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-21T02:24:54.327+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
