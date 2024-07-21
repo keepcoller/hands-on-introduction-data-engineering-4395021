@@ -10,3 +10,6 @@
 [[34m2024-07-21T13:22:43.315+0000[0m] {[34mscheduler_job_runner.py:[0m1786} INFO[0m - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'[0m
 [[34m2024-07-21T13:23:43.496+0000[0m] {[34mscheduler_job_runner.py:[0m1786} INFO[0m - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'[0m
 [[34m2024-07-21T13:24:43.630+0000[0m] {[34mscheduler_job_runner.py:[0m1786} INFO[0m - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'[0m
+[[34m2024-07-21T13:25:43.761+0000[0m] {[34mscheduler_job_runner.py:[0m1786} INFO[0m - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'[0m
+[[34m2024-07-21T13:26:43.363+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-07-21T13:26:43.921+0000[0m] {[34mscheduler_job_runner.py:[0m1786} INFO[0m - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'[0m

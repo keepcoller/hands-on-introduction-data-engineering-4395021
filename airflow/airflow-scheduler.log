@@ -819,3 +819,6 @@ Proxy-Connection: Keep-Alive
 2024-07-21 13:22:43,315 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
 2024-07-21 13:23:43,496 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
 2024-07-21 13:24:43,630 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 13:25:43,761 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2024-07-21 13:26:43,363 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-21 13:26:43,921 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
