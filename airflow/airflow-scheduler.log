@@ -1,0 +1,59 @@
+2024-07-22 01:33:21,127 INFO - Task context logging is enabled
+2024-07-22 01:33:21,128 INFO - Loaded executor: SequentialExecutor
+2024-07-22 01:33:21,199 INFO - Starting the scheduler
+2024-07-22 01:33:21,200 INFO - Processing each file at most -1 times
+2024-07-22 01:33:21,213 INFO - Launched DagFileProcessorManager with pid: 25364
+2024-07-22 01:33:21,215 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-22 01:33:21,217 INFO - Configured default timezone UTC
+2024-07-22 01:38:21,403 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-22 01:40:14,518 INFO - Setting next_dagrun for extract_dag to 2024-07-22 00:00:00+00:00, run_after=2024-07-23 00:00:00+00:00
+2024-07-22 01:40:14,617 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_dag.extract_task scheduled__2024-07-21T00:00:00+00:00 [scheduled]>
+2024-07-22 01:40:14,617 INFO - DAG extract_dag has 0/16 running and queued tasks
+2024-07-22 01:40:14,617 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_dag.extract_task scheduled__2024-07-21T00:00:00+00:00 [scheduled]>
+2024-07-22 01:40:14,619 INFO - Sending TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='scheduled__2024-07-21T00:00:00+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-07-22 01:40:14,619 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'scheduled__2024-07-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2024-07-22 01:40:14,643 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'scheduled__2024-07-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2024-07-22 01:40:17,586 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='scheduled__2024-07-21T00:00:00+00:00', try_number=1, map_index=-1)
+2024-07-22 01:40:17,627 INFO - TaskInstance Finished: dag_id=extract_dag, task_id=extract_task, run_id=scheduled__2024-07-21T00:00:00+00:00, map_index=-1, run_start_date=2024-07-22 01:40:16.665461+00:00, run_end_date=2024-07-22 01:40:17.095124+00:00, run_duration=0.429663, state=success, executor_state=success, try_number=1, max_tries=0, job_id=2, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-07-22 01:40:14.618306+00:00, queued_by_job_id=1, pid=28475
+2024-07-22 01:40:17,788 INFO - Marking run <DagRun extract_dag @ 2024-07-21 00:00:00+00:00: scheduled__2024-07-21T00:00:00+00:00, state:running, queued_at: 2024-07-22 01:40:14.511685+00:00. externally triggered: False> successful
+2024-07-22 01:40:17,789 INFO - DagRun Finished: dag_id=extract_dag, execution_date=2024-07-21 00:00:00+00:00, run_id=scheduled__2024-07-21T00:00:00+00:00, run_start_date=2024-07-22 01:40:14.547683+00:00, run_end_date=2024-07-22 01:40:17.789096+00:00, run_duration=3.241413, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2024-07-21 00:00:00+00:00, data_interval_end=2024-07-22 00:00:00+00:00, dag_hash=cbf0b1a129994f8b1a3efa1ec5b63c5c
+2024-07-22 01:40:17,791 INFO - Setting next_dagrun for extract_dag to 2024-07-22 00:00:00+00:00, run_after=2024-07-23 00:00:00+00:00
+2024-07-22 01:40:49,971 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_dag.extract_task manual__2024-07-22T01:40:48.322991+00:00 [scheduled]>
+2024-07-22 01:40:49,971 INFO - DAG extract_dag has 0/16 running and queued tasks
+2024-07-22 01:40:49,971 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_dag.extract_task manual__2024-07-22T01:40:48.322991+00:00 [scheduled]>
+2024-07-22 01:40:49,973 INFO - Sending TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2024-07-22T01:40:48.322991+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-07-22 01:40:49,973 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2024-07-22T01:40:48.322991+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2024-07-22 01:40:50,001 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2024-07-22T01:40:48.322991+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2024-07-22 01:40:52,618 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2024-07-22T01:40:48.322991+00:00', try_number=1, map_index=-1)
+2024-07-22 01:40:52,621 INFO - TaskInstance Finished: dag_id=extract_dag, task_id=extract_task, run_id=manual__2024-07-22T01:40:48.322991+00:00, map_index=-1, run_start_date=2024-07-22 01:40:51.934825+00:00, run_end_date=2024-07-22 01:40:52.232707+00:00, run_duration=0.297882, state=success, executor_state=success, try_number=1, max_tries=0, job_id=3, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-07-22 01:40:49.972298+00:00, queued_by_job_id=1, pid=28708
+2024-07-22 01:40:52,753 INFO - Marking run <DagRun extract_dag @ 2024-07-22 01:40:48.322991+00:00: manual__2024-07-22T01:40:48.322991+00:00, state:running, queued_at: 2024-07-22 01:40:48.340733+00:00. externally triggered: True> successful
+2024-07-22 01:40:52,753 INFO - DagRun Finished: dag_id=extract_dag, execution_date=2024-07-22 01:40:48.322991+00:00, run_id=manual__2024-07-22T01:40:48.322991+00:00, run_start_date=2024-07-22 01:40:49.909871+00:00, run_end_date=2024-07-22 01:40:52.753882+00:00, run_duration=2.844011, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-07-21 01:40:48.322991+00:00, data_interval_end=2024-07-22 01:40:48.322991+00:00, dag_hash=cbf0b1a129994f8b1a3efa1ec5b63c5c
+2024-07-22 01:42:07,705 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_dag.extract_task manual__2024-07-22T01:42:06.338754+00:00 [scheduled]>
+2024-07-22 01:42:07,706 INFO - DAG extract_dag has 0/16 running and queued tasks
+2024-07-22 01:42:07,706 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_dag.extract_task manual__2024-07-22T01:42:06.338754+00:00 [scheduled]>
+2024-07-22 01:42:07,707 INFO - Sending TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2024-07-22T01:42:06.338754+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-07-22 01:42:07,708 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2024-07-22T01:42:06.338754+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2024-07-22 01:42:07,732 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2024-07-22T01:42:06.338754+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2024-07-22 01:42:10,506 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2024-07-22T01:42:06.338754+00:00', try_number=1, map_index=-1)
+2024-07-22 01:42:10,509 INFO - TaskInstance Finished: dag_id=extract_dag, task_id=extract_task, run_id=manual__2024-07-22T01:42:06.338754+00:00, map_index=-1, run_start_date=2024-07-22 01:42:09.802327+00:00, run_end_date=2024-07-22 01:42:10.025552+00:00, run_duration=0.223225, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=4, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-07-22 01:42:07.707034+00:00, queued_by_job_id=1, pid=29312
+2024-07-22 01:42:10,643 ERROR - Marking run <DagRun extract_dag @ 2024-07-22 01:42:06.338754+00:00: manual__2024-07-22T01:42:06.338754+00:00, state:running, queued_at: 2024-07-22 01:42:06.347650+00:00. externally triggered: True> failed
+2024-07-22 01:42:10,643 INFO - DagRun Finished: dag_id=extract_dag, execution_date=2024-07-22 01:42:06.338754+00:00, run_id=manual__2024-07-22T01:42:06.338754+00:00, run_start_date=2024-07-22 01:42:07.643299+00:00, run_end_date=2024-07-22 01:42:10.643700+00:00, run_duration=3.000401, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-07-21 01:42:06.338754+00:00, data_interval_end=2024-07-22 01:42:06.338754+00:00, dag_hash=af5c9f499b161ecdb1c12ed40da55644
+2024-07-22 01:43:21,490 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-07-22 01:43:35,685 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_dag.extract_task manual__2024-07-22T01:43:34.292984+00:00 [scheduled]>
+2024-07-22 01:43:35,686 INFO - DAG extract_dag has 0/16 running and queued tasks
+2024-07-22 01:43:35,686 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_dag.extract_task manual__2024-07-22T01:43:34.292984+00:00 [scheduled]>
+2024-07-22 01:43:35,687 INFO - Sending TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2024-07-22T01:43:34.292984+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-07-22 01:43:35,688 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2024-07-22T01:43:34.292984+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2024-07-22 01:43:35,717 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2024-07-22T01:43:34.292984+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2024-07-22 01:43:38,456 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2024-07-22T01:43:34.292984+00:00', try_number=1, map_index=-1)
+2024-07-22 01:43:38,459 INFO - TaskInstance Finished: dag_id=extract_dag, task_id=extract_task, run_id=manual__2024-07-22T01:43:34.292984+00:00, map_index=-1, run_start_date=2024-07-22 01:43:37.743206+00:00, run_end_date=2024-07-22 01:43:38.028366+00:00, run_duration=0.28516, state=success, executor_state=success, try_number=1, max_tries=0, job_id=5, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-07-22 01:43:35.686866+00:00, queued_by_job_id=1, pid=29952
+2024-07-22 01:43:38,592 INFO - Marking run <DagRun extract_dag @ 2024-07-22 01:43:34.292984+00:00: manual__2024-07-22T01:43:34.292984+00:00, state:running, queued_at: 2024-07-22 01:43:34.304439+00:00. externally triggered: True> successful
+2024-07-22 01:43:38,593 INFO - DagRun Finished: dag_id=extract_dag, execution_date=2024-07-22 01:43:34.292984+00:00, run_id=manual__2024-07-22T01:43:34.292984+00:00, run_start_date=2024-07-22 01:43:35.625117+00:00, run_end_date=2024-07-22 01:43:38.593202+00:00, run_duration=2.968085, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-07-21 01:43:34.292984+00:00, data_interval_end=2024-07-22 01:43:34.292984+00:00, dag_hash=6cb802d2a7af9e20a4c678f76accb2fb
